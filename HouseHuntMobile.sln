@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseHuntMobile", "HouseHun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseHuntMobile.Android", "HouseHuntMobile\HouseHuntMobile.Android\HouseHuntMobile.Android.csproj", "{58AF8ED0-685C-4E3B-B5EA-D9194F060D3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9647A0E7-23E9-4FF0-B32B-0625AA619454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

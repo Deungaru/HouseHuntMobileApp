@@ -9,24 +9,21 @@
         <viewModel:RegisterViewModel/>
     </ContentPage.BindingContext>
 
-    <ImageBrush x:Key="bgImage" ImageSource="/Resources/drawable/realestate.jpg" Opacity=".1" Stretch="UniformToFill" />
+    <StackLayout>
 
-    <Grid x:Name="LayoutRoot" Background="{StaticResource bgImage}">
-        <StackLayout>
-            <Entry Text="{Binding Email}" Placeholder="Email"/>
-            <Entry Text="{Binding Password}" Placeholder="Password"/>
-            <Entry Text="{Binding ConfirmPassword}" Placeholder="Confirm Password"/>
-            <Entry Text="{Binding FirstName}" Placeholder="Firstname"/>
-            <Entry Text="{Binding LastName}" Placeholder="Lastname"/>
-            <Entry Text="{Binding Gender}" Placeholder="Gender"/>
-            <Entry Text="{Binding Street}" Placeholder="Street"/>
-            <Entry Text="{Binding City}" Placeholder="City"/>
-            <Entry Text="{Binding PhoneNum}" Placeholder="Phone Number"/>
-            <Entry Text="{Binding BirthDate}" Placeholder="Date of Birth"/>
+        <Entry Text="{Binding Email}" Placeholder="Email"/>
+        <Entry Text="{Binding Password}" Placeholder="Password"/>
+        <Entry Text="{Binding ConfirmPassword}" Placeholder="Confirm Password"/>
+        <Entry Text="{Binding FirstName}" Placeholder="Firstname"/>
+        <Entry Text="{Binding LastName}" Placeholder="Lastname"/>
+        <Entry Text="{Binding Gender}" Placeholder="Gender"/>
+        <Entry Text="{Binding Street}" Placeholder="Street"/>
+        <Entry Text="{Binding City}" Placeholder="City"/>
+        <Entry Text="{Binding PhoneNum}" Placeholder="Phone Number"/>
+        <Entry Text="{Binding BirthDate}" Placeholder="Date of Birth"/>
 
-            <Button Command="{Binding RegisterCommand}" Text="REGISTER"/>
-            <Label Text="{Binding Message}" />
-        </StackLayout>
-    </Grid>
+        <Button Command="{Binding RegisterCommand}" Text="REGISTER"/>
+        <Label Text="{Binding Message}" />
+    </StackLayout>
 
 </ContentPage>

@@ -3,20 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HouseHuntMobile.View.LoginPage">
     <ContentPage.Content>
-        
+
     </ContentPage.Content>
 
-    <ImageBrush x:Key="bgImage" ImageSource="/Resources/drawable/realestate.jpg" Opacity=".1" Stretch="UniformToFill" />
+    <StackLayout>
 
-    <Grid x:Name="LayoutRoot" Background="{StaticResource bgImage}">
+        
 
-        <StackLayout>
-            <Entry Text="{Binding Email}" Placeholder="Email"/>
-            <Entry Text="{Binding Password}" Placeholder="Password" x:Name="Password" IsPassword="True"/>
-
-            <Button Command="{Binding RegisterCommand}" Text="LOGIN"/>
-            <Label Text="{Binding Message}" />
-        </StackLayout>
-
-    </Grid>
+       
+    </StackLayout>
+    
 </ContentPage>
