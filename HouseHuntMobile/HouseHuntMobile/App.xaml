@@ -4,7 +4,11 @@
              x:Class="HouseHuntMobile.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <Style TargetType = "Button">
+            <Setter Property = "Background" Value = "Dark Blue" />
+            <Setter Property = "Foreground" Value = "White" />
+            <Setter Property = "FontWeight" Value = "Bold" />
+        </Style>
 
-	</Application.Resources>
+    </Application.Resources> 
 </Application>
