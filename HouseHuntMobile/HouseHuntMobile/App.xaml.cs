@@ -12,7 +12,7 @@ namespace HouseHuntMobile
 		public App ()
 		{
 			InitializeComponent();
-            MainPage = new HouseHuntMobile.View.RegisterPage();
+            MainPage = new HouseHuntMobile.View.AgentPage();
 		}
 
 		protected override void OnStart ()

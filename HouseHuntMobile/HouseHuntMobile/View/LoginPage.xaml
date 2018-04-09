@@ -6,11 +6,15 @@
 
     </ContentPage.Content>
 
-    <StackLayout>
+    <StackLayout VerticalOptions="Center">
 
+        <Label Text="SIGN IN" HorizontalTextAlignment="Center" FontSize="Large"/>
+        <LineBreakMode/>
+        <LineBreakMode/>
+        <Entry Placeholder="Email"/>
+        <Entry Placeholder="Password"/>
+        <Button Text="LOGIN"/>
         
-
-       
     </StackLayout>
     
 </ContentPage>

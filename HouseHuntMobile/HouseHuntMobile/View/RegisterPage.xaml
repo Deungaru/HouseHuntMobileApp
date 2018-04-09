@@ -10,7 +10,9 @@
     </ContentPage.BindingContext>
 
     <StackLayout>
-
+        <Label Text="REGISTER" FontSize="Large" HorizontalTextAlignment="Center"/>
+        <LineBreakMode/>
+        <LineBreakMode/>
         <Entry Text="{Binding Email}" Placeholder="Email"/>
         <Entry Text="{Binding Password}" Placeholder="Password"/>
         <Entry Text="{Binding ConfirmPassword}" Placeholder="Confirm Password"/>

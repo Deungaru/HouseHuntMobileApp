@@ -4,9 +4,18 @@
              x:Class="HouseHuntMobile.View.ContactUsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="CONTACT US" FontSize="Large"/>
+            <Label Text="FIJI HOMES" HorizontalTextAlignment="Center" FontSize="Large"/>
+            <LineBreakMode/>
+            <Label Text="LAUCALA, SUVA" HorizontalTextAlignment="Center" FontSize="Default"/>
+            <Label Text="EMAIL : fijihomes@gmail.com" HorizontalTextAlignment="Center" FontSize="Default"/>
+            <Label Text="PHONE : +679 9999 999" HorizontalTextAlignment="Center" FontSize="Default"/>
+            <LineBreakMode/>
+            <Label Text="FEEDBACK" FontSize="Medium"/>
+            <Entry Placeholder="Email"/>
+            <Entry Placeholder="Your Message Here"/>
+            <Button Text="SUBMIT"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

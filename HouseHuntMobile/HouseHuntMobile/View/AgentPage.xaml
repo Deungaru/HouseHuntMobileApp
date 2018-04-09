@@ -4,9 +4,8 @@
              x:Class="HouseHuntMobile.View.AgentPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="OUR AGENTS" FontSize="Large"/>
+            <LineBreakMode/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
