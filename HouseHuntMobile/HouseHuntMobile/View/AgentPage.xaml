@@ -6,6 +6,8 @@
         <StackLayout>
             <Label Text="OUR AGENTS" FontSize="Large"/>
             <LineBreakMode/>
+            <Image Source="/Resources/drawable/realestate.jpg" HeightRequest="75" WidthRequest="75" Margin="15"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
